@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savory House Resturant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER: resturant name and navigation-->
+    <header class="site-header">
+        <a rel="#home" class="logo">Savory<span>House</span></a>
+
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#offers">Offers</A>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Welcome Section-->
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">GOOD FOOD, GOOD MOOD</p>
+                <h1>Fresh Flavours, <br>Wonderful Moments.</h1>
+                <p>Welcome to Savory House, where delicious meals, fresh ingredients and warm hospitality come together.</p>
+                <a href="#menu">Explore Our Menu</a>
+            </div>
+        </section>
+
+        <!--ABOUT SECTION-->
+
+        <section id="about" class="about">
+            <div class="hero-content">
+                <p class="eyebrow">OUR STORY</p>
+                <h2>A Place for Great Foods</h2>
+                <p>At Savory House, we believe good food brings people together. we prepare every meal with care using fresh ingredients and recipes full of flavour.</p>
+                <p>Whether you are meeting friends, celebrating a special a special moment or enjoying lunch, we are happy to welcome you</p>
+            </div>
+
+            <div class="about-highligh">
+                <span class="highlight-icon"></span>
+                <h3>Made with Love</h3>
+                <p>Fresh ingredients. Beautiful flowers. Friendly service.</p>
+            </div>
+        </section>
+
+        <!--FOOD MENU: css Grid will arrange these cards -->
+        <section id="menu" class="menu section-padding">
+            <div class="section-heading">
+                <p class="eyebrow">TASTE THE DIFFERENCE</p>
+                <h2>Our Popular Menu</h2>
+                <p>Discover a few of our favourite dishes.</p>
+            </div>
+            <div class="menu-grid">
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>Jollof Rice</h3>
+                    <p>Delicious rice cooked in a rich tomato and pepprt sauce.</p>
+                    <p class="price">&#8358;3,500</p>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>Grilled Chicken</h3>
+                    <p>Tender chicken seasoned with our special house spices.</p>
+                    <p class="price">&#8358;4,500</p>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>Spaghetti</h3>
+                    <p>Soft paste served with a tasty toamto-based sauce.</p>
+                    <p class="price">&#8358;3,000</p>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>House Burger</h3>
+                    <p>A juicy burger layered with vegetables and special sauce.</p>
+                    <p class="price">&#8358;4,000</p>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>Cheese Pizza</h3>
+                    <p>A cheesy favourite with a crips base and tasty tooping</p>
+                    <p class="price">&#8358;5,500</p>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-icon"></div>
+                    <h3>Fresh Salad</h3>
+                    <p>A refreshing mix of fresh vegetables and light dressing.</p>
+                    <p class="price">&#8358;2,500</p>
+                </article>
+            </div>
+        </section>
+
+        <!--SPECIAL OFFERS-->
+        <section id="offers" class="offers section-padding">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE EXTRA</p>
+                <h2>Special Offers</h2>
+            </div>
+
+            <div class="offers-grid">
+                <article class="offer-card">
+                    <h3>Lunch Combo</h3>
+                    <p>Enjoy jollof rice and grilled chicken together.</p>
+                    <strong>Combo from &#8358;6,500</strong>
+                </article>
+
+                <article class="offer-card">
+                    <h3>Friends' Treat</h3>
+                    <p>Share a pizza and two refreshing drinks with a friend</p>
+                    <strong>Combo from &#8358;7,000</strong>
+                </article>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section id="contact" class="contact section-padding">
+            <div class="section-heading">
+                <p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p>
+                <h2>Get in Touch</h2>
+                <p>Have a question? Send us a message.</p>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-details">
+                    <h3>Visit Savory House</h3>
+                    <p><strong>Address: </strong>Enugu, Nigeria</p>
+                    <p><strong>Phone: </strong>+234 800 000 0000</p>
+                    <p><strong>Email: </strong>hello@savoryhouse.com</p>
+                </div>
+
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your enail" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--FOOTER: information at the bottom-->
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Savory House Resturant. All right reserved.</p>
+        <p>Fresh food, friendly service, wounderful moments</p>
+    </footer>
+</body>
+</html>
